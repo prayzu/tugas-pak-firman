@@ -5,3 +5,5 @@ tugas 4 (untitled3) https://colab.research.google.com/drive/1et7NU8YjvsDtBqt2fXJ
 
 PEMROGRAMAN WEB
 P.web formulir (formulir)
+P.web multimedisa ( biodata_table)
+P.web 7&8 ( tugas 78)
