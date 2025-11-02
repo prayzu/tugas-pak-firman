@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.boxbiodata {
+    border-image-width: center; 
+    text-align: center;
+    width: 400px; 
+    background-color: lightgreen; 
+    padding: 20px; 
+    border: 5px solid green; 
+    margin: 30px auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+}
+.boxbiodata:hover {
+    background-color: lightyellow;
+}
+
+.box1 {
+    width: 300px; 
+    background-color: lightcoral; 
+    padding: 20px; 
+    border: 5px solid red; 
+    margin: 30px auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+}
+.box1:hover {
+    background-color: lightpink; 
+}
+
+.box2 {
+    width: 300px; 
+    background-color: lightblue; 
+    padding: 20px; 
+    border: 5px solid blue; 
+    margin: 30px auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+}
+.box2:hover {
+    background-color: lightcyan; 
+}
+
+.box3 {
+    width: 300px; 
+    background-color: rgb(85, 36, 177); 
+    padding: 20px; 
+    border: 5px solid rgb(70, 10, 182); 
+    margin: 30px auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3); 
+}
+.box3:hover {
+    background-color: rgb(151, 214, 214); 
+}

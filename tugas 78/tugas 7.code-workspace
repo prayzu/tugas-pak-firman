@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../tugas 7"
+		},
+		{
+			"path": "../tugas 8"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tugas 7",
+		"liveServer.settings.port": 5501
+	}
+}
