@@ -7,3 +7,5 @@ PEMROGRAMAN WEB
 P.web formulir (formulir)
 P.web multimedisa ( biodata_table)
 P.web 7&8 ( tugas 78)
+
+LKPD (LKPD M haikal rizah.docx)
