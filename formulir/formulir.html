@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi</title>
+    </head>
+    <body>
+        <h1>Formulir Pendaftaran Siswa Baru</h1>
+        <form action="proses.php" method="POST" enctype="multipart/form-data">
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" name="gender" value="Laki-laki" required> Laki-laki
+            <input type="radio" name="gender" value="Perempuan"> Perempuan<br><br>
+            
+            <label>Hobi:</label><br>
+            <input type="checkbox" name="hobi[]" value="Membuka laptop"> Membaca
+            <input type="checkbox" name="hobi[]" value="Bermain Volly"> Coding
+            <input type="checkbox" name="hobi[]" value="Olahraga"> Gaming<br><br>
+            
+            <label for="kelas">Pilih Kelas:</label><br>
+            <select name="kelas" id="kelas" required>
+                <option value="">--Pilih Kelas--</option>
+                <option value="XI RPL 1">XI RPL 1</option>
+                <option value="XI RPL 2">XI RPL 2</option>
+            </select><br><br>
+            
+            <label for="foto">Upload Foto:</label><br>
+            <input type="file" name="foto" accept="image/*"><br><br>
+         
+            <label for="alamat">Alamat:</label><br>
+            <textarea name="alamat" id="alamat" rows="4" cols="40"
+            required></textarea><br><br>
+            
+            <input type="submit" value="Kirim">
+        </form>
+    </body>
+    
+</html>
